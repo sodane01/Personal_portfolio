@@ -47,12 +47,12 @@ return ( <main> <h1 className="projects-title">Projects</h1>
 
       <div className="project-links">
         <a
-          href="https://github.com/sodane01/Anettes-Cakery"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fa-brands fa-github"></i>
-          View on GitHub
+            href="https://github.com/sodane01/Anettes-Cakery"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <i className="fa-brands fa-github"></i>
+            View on GitHub
         </a>
       </div>
     </div>

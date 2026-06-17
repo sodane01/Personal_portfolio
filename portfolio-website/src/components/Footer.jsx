@@ -4,15 +4,19 @@ function Footer() {
       <p>Thank you for visiting my portfolio.</p>
 
       <div className="footer-links-footer">
-        <a href="https://linkedin.com" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/anette-söderström-b53b9953"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           LinkedIn
         </a>
 
-        <a href="https://github.com" target="_blank">
+        <a href="https://github.com/sodane01" target="_blank">
           GitHub
         </a>
 
-        <a href="mailto:your@email.com">
+        <a href="mailto:sodane01@gmail.com">
           Email
         </a>
       </div>
