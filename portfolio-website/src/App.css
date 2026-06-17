@@ -660,3 +660,21 @@ main {
     gap: 10px;
   }
 }
+
+.footer-links-footer a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-links-footer a:hover {
+  color: #df92f7;
+}
+
+.footer-links-footer i {
+  font-size: 16px;
+}

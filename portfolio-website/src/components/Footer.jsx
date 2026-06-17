@@ -9,15 +9,19 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn
+          <i className="fa-brands fa-linkedin"></i> LinkedIn
         </a>
 
-        <a href="https://github.com/sodane01" target="_blank">
-          GitHub
+        <a
+          href="https://github.com/sodane01"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa-brands fa-github"></i> GitHub
         </a>
 
         <a href="mailto:sodane01@gmail.com">
-          Email
+          <i className="fa-solid fa-envelope"></i> Email
         </a>
       </div>
 
