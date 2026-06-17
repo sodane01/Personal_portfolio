@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: white;
+    min-height: 100vh;
+}
+
+/* LEFT SECTION */
+
+.left-section {
+    padding: 50px;
+}
+
+header h1 {
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 7vw, 5rem);
+}
+
+header h2 {
+    letter-spacing: 5px;
+    margin-top: 5px;
+}
+
+.yellow-line {
+    width: 50px;
+    height: 6px;
+    background: #f2d024;
+    margin: 25px 0;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.about-box {
+    background: #f2d024;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.work-section h2 {
+    margin-bottom: 30px;
+}
+
+.job {
+    margin-bottom: 40px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+.year {
+    background: #f2d024;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.job h3 {
+    margin-top: 15px;
+}
+
+.job h4 {
+    color: gray;
+    margin: 5px 0 15px;
+}
+
+/* RIGHT SECTION */
+
+.right-section {
+    background: #111;
+    color: white;
+    padding: 40px 30px;
+    border-radius: 30px 0 0 30px;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.profile-image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.education,
+.skills {
+    margin-bottom: 40px;
+}
+
+.education h2,
+.skills h2 {
+    margin-bottom: 25px;
+}
+
+.education-item {
+    margin-bottom: 30px;
+}
+
+.education-item span {
+    color: #f2d024;
+    font-weight: bold;
+}
+
+.education-item h3 {
+    margin: 8px 0;
+}
+
+.skill {
+    margin-bottom: 25px;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.bar {
+    width: 100%;
+    height: 8px;
+    background: white;
+    border-radius: 10px;
+}
+
+.fill {
+    height: 100%;
+    background: #f2d024;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px)
+{
+    .container
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .right-section
+    {
+        border-radius: 0;
+    }
+
+    .profile-image img
+    {
+        width: 180px;
+        height: 180px;
+    }
+
+    .contact-info
+    {
+        grid-template-columns: 1fr;
+    }
+
+    header h1
+    {
+        font-size: 2.5rem;
+    }
+}

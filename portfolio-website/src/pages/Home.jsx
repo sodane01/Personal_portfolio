@@ -1,4 +1,5 @@
 import profileImage from "../assets/profile.jpg";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -9,16 +10,25 @@ function Home() {
 
           <h1>Anette Söderström</h1>
           <h2>Software Tester & QA Specialist</h2>
-          <p className="description">Ensuring quality through testing, collaboration and continuous improvement.</p>
+
+          <p className="description">
+            Ensuring quality through testing, collaboration and continuous
+            improvement.
+          </p>
 
           <div className="hero-buttons">
-            <button>View my work</button>
-            <button>Contact me</button>
+            <Link to="/projects" className="hero-button">
+              View my work
+            </Link>
+
+            <Link to="/contact" className="hero-button secondary">
+              Contact me
+            </Link>
           </div>
         </div>
 
         <div className="hero-image">
-            <img src={profileImage} alt="Anette Söderström" />
+          <img src={profileImage} alt="Anette Söderström" />
         </div>
       </section>
     </main>

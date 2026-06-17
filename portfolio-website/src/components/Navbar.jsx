@@ -1,16 +1,16 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
         <nav>
             <h2>Anette Söderström</h2>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li> 
-                <li><Link to="/skills">Skills</Link></li>
-                <li><Link to="/experience">Experience</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><NavLink to="/" end>Home</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li> 
+                <li><NavLink to="/skills">Skills</NavLink></li>
+                <li><NavLink to="/experience">Experience</NavLink></li>
+                <li><NavLink to="/projects">Projects</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
         </nav>
     );
